@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<body>
+    <header>
+        <center><img src="./img/imagen_logo_ucun.png" width="40%" height="40%">
+        <h1>EcoGota</h1>
+        <h2>Dayana Gómez y Jennie Aranzalez</h2>
+        <h3>Ingenieria Mecatrónica</h3></center>
+        <link rel="stylesheet" href="./CSS/index.css">
+        <br><hr><br>
+    </header>
+
+    <nav>
+        <ul>
+            <center><li><a href="./index.html">Inicio</a></li>
+            <li><a href="./html/glosario_fundamentos_ingenieria.html">Glosario Ingeniería</a></li>
+            <li><a href="./html/glosario_pensamiento_algoritmico.html">Glosario Algorítmico</a></li>
+            <li><a href="./validacion_formulario_contacto_basico.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+
+    <br><hr><br>
+    <center><p class="DefProyecto">EcoGota capta agua del aire en zonas húmedas para proveer agua potable a comunidades vulnerables, usando tecnología de condensación y purificación eficiente.</p>
+    <img id="imagen_articulo1" src="img/EcoGota-removebg-preview.png" width="20%" height="30%"></center>
+    <br><hr><br>
+
+    <!-- Tabla de Contenido -->
+    <DIV id="Tabla-Contenido"></DIV>
+    <h2>Contenido</h2>
+    <ul>
+        <li><a href="#Introducción">Introducción</a></li>
+        <li><a href="#Objetivos">Objetivos</a></li>
+        <ul>    
+                <li><a href="#Objetivo General">Objetivo General</a></li>
+                <li><a href="#Objetivos Específicos">Objetivos Específicos</a></li>
+        </ul>
+        <li><a href="#Justificación">Justificación</a></li>
+        <ul>
+            <li><a href="#Situación Problematica">Situación Problematica</a></li>
+            <li><a href="#Análisis Situación Actual">Análisis Situación Actual</a></li>
+        </ul>
+        <li><a href="#Marco Teórico">Marco Teórico</a></li>
+        <ul>
+                <li><a href="#Normativa">Normativa</a></li>
+                <li><a href="#Seguridad">Seguridad</a></li>
+                <li><a href="#Calidad">Calidad</a></li>
+                <li><a href="#Normativa Técnica y de Seguridad">Normativa Técnica y de Seguridad</a></li>
+                <li><a href="#Aspectos Legales y Contractuales">Aspectos Legales y Contractuales</a></li>
+                <li><a href="#Impactos Ambientales">Impactos Ambientales</a></li>
+                <li><a href="#¿Qué existe actualmente?">¿Qué existe actualmente?</a></li>
+                <li><a href="#Entorno y Usuarios">Entorno y Usuarios</a></li>
+                <li><a href="#Características de los Beneficiados ">Características de los Beneficiados</a></li>
+                <li><a href="#Disciplinas o Ciencias Involucradas">Disciplinas o Ciencias Involucradas</a></li>
+        </ul>
+        <li><a href="#Encuesta">Encuesta</a></li>
+        <li><a href="#Boceto">Boceto</a></li>
+        <ul>
+            <li><a href="#Etapa 1">Etapa 1</a></li>
+            <li><a href="#Etapa 2">Etapa 2</a></li>
+            <li><a href="#Etapa 3">Etapa 3</a></li>
+            <li><a href="#Etapa 4">Etapa 4</a></li>
+            <li><a href="#Etapa 5">Etapa 5</a></li>
+        </ul>
+        <li><a href="#Costos">Costos</a></li>
+        <ul>
+            <li><a href="#Condensadores Atmosfericos de Agua (AWG)">Condensadores Atmosfericos de Agua(AWG)</a></li>
+            <li><a href="#Paneles Solares">Paneles Solares</a></li>
+            <li><a href="#Sistemas de Filtración y Purificación de Agua">Sistemas de Filtración y Purificación de Agua</a></li>
+            <li><a href="#Tanques de Almacenamiento">Tanques de Almacenamiento</a></li>
+            <li><a href="#Componentes Eléctricos">Componentes Eléctricos</a></li>
+        </ul>
+        <li><a href="#Conclusiones">Conclusiones</a></li> 
+        <li><a href="#Referencias">Referencias</a></li>   
+    </ul>
+    <DIV>
+        <!-- Contenido Principal -->
+         <main>
+            <summary>
+            <center><section id="Introducción">
+                <h2 class="Titulo 1">Introducción</h2>
+            <details>
+                        <p class="Parrafo 1">EcoGota es un proyecto innovador que busca abordar la escasez de agua potable en regiones
+                        con alta humedad relativa, como el Caribe colombiano, mediante la captación de agua del
+                        aire. Nuestra solución se basa en la tecnología de condensación atmosférica, aprovechando
+                        la humedad presente en el ambiente para generar agua limpia y segura, destinada a
+                        comunidades rurales y áreas urbanas marginales, con especial atención a poblaciones
+                        indígenas y afrocolombianas.
+                        <br>
+                        <br>
+                        El objetivo principal de EcoGota es diseñar un prototipo eficiente que no solo capture agua
+                        del aire, sino que también integre un sistema de purificación, garantizando así el acceso a
+                        agua de calidad. Además, buscamos optimizar el consumo energético del sistema,
+                        permitiendo su implementación en regiones con acceso limitado a la energía eléctrica.
+                        <br>
+                        <br>
+                        En un contexto donde la falta de infraestructura hídrica, la escasa inversión tecnológica y la
+                        mala gestión del agua agravan la crisis de recursos hídricos, EcoGota ofrece una solución
+                        sostenible y adaptable a diferentes entornos. Este proyecto tiene el potencial de generar un
+                        impacto social, económico y ambiental positivo, promoviendo el acceso equitativo a este
+                        recurso vital.</p>
+                    </details>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a></center>
+                    </section>
+            </summary>
+
+            <center><section id="Objetivos">
+                <h2 class="Titulo 1">Objetivos</h2></center>
+            </section>
+            <summary>
+                <section id="Objetivo General">
+                <h3 class="Titulo 1">Objetivo General</h3>
+                    <details>
+                        <p class="parrafo 1"><li>Desarrollar un sistema de condensación de agua que mejore el acceso a agua potable en regiones con alta humedad relativa.</li></p>
+                    </details>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </section>
+            </summary>
+            <summary>
+            <section id="Objetivos Específicos">
+                <h3 class="Titulo 1">Objetivos Específicos</h3>
+                    <details>
+                        <p class="parrafo 1"><li>Diseñar un prototipo de condensador de agua basado en principios de eficiencia energética.</li></p>
+                        <p class="parrafo 2"><li>Implementar un sistema de purificación de agua condensada para garantizar su potabilidad.</li></p>
+                        <p class="parrafo 3"><li> Optimizar el sistema para minimizar el consumo de energía y maximizar la producción diaria de agua.</li></p>
+                    </details>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </section>
+            </sumarry>        
+            <summary>
+            <center><section id="Justificación">
+                <h2 class="Titulo 1">Justificación</h2></center>
+            </section>
+            <summary>
+                <section id="Situación Problematica">
+                <h3 class="Titulo 1">Situación Problematica</h3>
+                    <details>
+                        <p class="parrafo 1">• La problemática de la escasez de agua en el Caribe colombiano está relacionada con varios factores que afectan tanto a la infraestructura hídrica como al acceso equitativo al recurso, generando grandes pérdidas de agua potable. Estos factores incluyen:</p>
+                        <h4 class="subtitulo1">1) Infraestructura definiente y envejecida:</h4>
+                        <p class="parrafo 1">En muchas ciudades y pueblos del Caribe colombiano, la red de distribución de agua es obsoleta o ha recibido poco mantenimiento a lo largo del tiempo. Esto provoca fugas constantes en las tuberías, tanques de almacenamiento y conexiones, lo que resulta en pérdidas significativas de agua.</p>
+                        <h4 class="subtitulo1">2) Falta de inversion en tecnologia y mantenimiento:</h4>
+                        <p class="parrafo 1">La falta de recursos financieros para invertir en tecnología moderna para la detección de fugas o en la modernización de la infraestructura existente es un problema recurrente. El mantenimiento insuficiente agrava la situación, aumentando la frecuencia de la escasez de agua.</p>
+                        <h4 class="subtitulo1">3) Alta humedad y clima extremo:</h4>
+                        <p class="parrafo 1">Las condiciones climáticas en la región, con altas temperaturas y niveles de humedad, hacen que la evaporación del agua sea rápida. Sin embargo, cuando se producen fugas, grandes cantidades de agua se pierden antes de llegar a las comunidades que la necesitan.</p>
+                        <h4 class="subtitulo1">4) Impacto en la población vulnerable:</h4>
+                        <p class="parrafo 1">La escasez de agua también agrava la situación en las zonas rurales y en áreas urbanas marginales, donde el acceso al agua potable ya es limitado. Las fugas reducen la cantidad de agua disponible para el consumo humano y actividades cotidianas, afectando principalmente a las poblaciones más vulnerables.</p>
+                        <h4 class="subtitulo1">5) Gestion inesficiente del recurso hídrico:</h4>
+                        <p class="parrafo 1">Las instituciones responsables de la gestión del agua no siempre tienen planes efectivos para reducir las fugas ni el personal técnico capacitado para abordar el problema de manera integral. Esto resulta en una gestión ineficaz que contribuye al desperdicio y a la escasez del recurso.</p>
+                        <h4 class="subtitulo1">6) Consecuencias ambientales y económicas:</h4>
+                        <p class="parrafo 1">Las fugas de agua no solo generan un desperdicio económico, sino que también tienen un impacto negativo en el medio ambiente, especialmente en una región que ya enfrenta problemas de sequías periódicas.</p></details>
+                    </details>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                </section>
+            </summary>
+            <summary>
+                <section id="Análisis Situación Actual">
+                <h3 class="Titulo 1">Análisis Situación Actual</h3>
+                    <details>
+                    <p class="parrafo 1">La falta de modernización en las redes de suministro y monitoreo de agua, especialmente en
+                        regiones como el Magdalena, ha resultado en sistemas de riego que carecen de la tecnología
+                        necesaria para un uso eficiente del recurso. En ciudades como Santa Marta, la creciente
+                        presión del turismo incrementa el consumo de grandes cantidades de agua, mientras que
+                        muchos habitantes locales dependen de carros cisterna para acceder al agua potable.
+                        <br>
+                        <br>
+                        Organizaciones como la Corporación Autónoma Regional del Atlántico (CRA) y el Instituto
+                        Ambiental de Estocolmo (SEI) están llevando a cabo una Evaluación Regional del Agua para
+                        monitorear el estado de las cuencas hídricas. Utilizando modelos científicos, simulan
+                        escenarios de demanda y disponibilidad de agua, lo que contribuye a una mejor toma de
+                        decisiones y promueve una gestión más sostenible del recurso.
+                        <br>
+                        <br>
+                        No obstante, las soluciones implementadas hasta el momento no han sido completamente
+                        efectivas. En áreas como el Magdalena, las intervenciones para mitigar problemas como la
+                        erosión costera y la escasez de agua han sido temporales. Por ejemplo, la construcción de
+                        enrocados ha mitigado algunos daños a corto plazo, pero no ha abordado los problemas de
+                        raíz.
+                        <br>
+                        <br>
+                        Además, la falta de planificación adecuada y la atención de actualizaciones en los Planes de
+                        Ordenamiento Territorial (POT) siguen siendo obstáculos para la implementación de
+                        soluciones sostenibles a largo plazo.</p>
+                    </details>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                </section>
+            </summary>
+
+            <center><section id="Marco Teórico">
+                <h2 class="Titulo 1">Marco Teórico</h2></center>
+            </section>
+            <summary>
+                <section id="Normativa">
+                <h2 class="Titulo 1">Normativa Actual</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                    <section id="Energía Renovable y Autogeneración (Ley 1715 de 2014)">
+                <h3 class="Titulo 1">Energía Renovable y Autogeneración (Ley 1715 de 2014)</h3>
+                <p class="parrafo 1">En Colmbia,la producción, instalación y uso de paneles solares esta regulada principalmente
+                    por la Ley 1715 de 2014, que promueve el uso de fuentes no convencionales de energia. Esta ley incentiva la adopción 
+                    de tecnologías limpias, como los paneles solares, otorgando beneficios fiscales, exenciones de IVA y aranceles, y deducciones
+                    trubitarias para quienes las implementan. En el caso de EcoGota, estos incentivos apoyan la autogeneración de energía a través
+                    de paneles solares, asegurando un suministro energético sostenible para el sistema de captación de agua.</p>
+                <section id="Normativa sobre Captación de Agua Atmosférica (Ley 373 de 1997)">
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <h3 class="Titulo 1">Normativa sobre Captación de Agua Atmosférica (Ley 373 de 1997)</h3>
+                <p>Aunque no existe una regulación especifica para la captación de agua atmosférica en Colombia,EcoGota puede
+                    beneficiarse de la Ley 373 de 1997, que promueve el uso eficiente y el ahorro de agua. Las autoridades ambientales, como la Autoridad
+                    Nacional de Licencias Ambientales(ANLA), pueden intervenir si se detecta un impacto significativo en los recursos hidrico locales,
+                    en cuyo caso sería necesario obtener permisos adicionales.</p>
+                <section id="Normas de Calidad del Agua Potable(OMS y Colombia)">
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <h3 class="Titulo 1">Normas de Calidad del Agua Potable(OMS y Colombia)</h3>
+                <p class="parrafo 1">El proyecto debe adherirse a los estándares de calidad del agua potable establecidos por la Organización Mundial
+                    de la Salud(OMS) y las normativas colombianas, como el Decreto 1575 de 2007 y la Resolución 2115 de 2007.Estas normativas regulan la 
+                    calidad microbiológia, física y química del agua, asegurando que el agua producida por EcoGota sea segurapara el consumo humano. Se deben 
+                    implementer sistemas de filtración y desinfección, como carbón activado y rayos UV, para garantizar que el agua cumpla con los parámetros 
+                    establecidos de potabilidad.</p> 
+                <section id="Normativa Ambiental (Lay 99 de 1993)">
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <h3 class="Titulo 1">Normativa Ambiental (Lay 99 de 1993)</h3>
+                <p class="parrafo 1">La ley 99 de 1993 establece las regulaciones ambientales en Colombia y es crucial para proyectos como EcoGota que captan agua 
+                    del aire, ya que es necesario evaluar cualquier posible impacto en el ciclo hidrológico local. Para mitigar estos impactos, eñ proyecto debe solicitarlas licencias 
+                    ambientales correspondientes emitidas por las Corporaciones Autónomas Regionales(CAR) y realizar una Evaluación de impacto Ambiental(EIA),si fuera necesario.</p>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details> 
+                </section>
+            </summary>
+            <summary>
+                <section id="Seguridad">
+                <h2 class="Titulo 1">Seguridad</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                        <section id="Seguridad Eléctrica y Mecánica">
+                <h3 class="Titulo 1">Seguridad Eléctrica y Mecánica</h3>
+                <p class="parrafo 1">El sistema EcoGota debe cumplir con los lineamientos de seguridad elétrica establecido por la Norma Técnica Colombiana(NTC) 2050,que regula la instalación 
+                    de sistemas eléctrico, garantizando que los paneles solares operen de manera segura y confiable. Además, la NTC 1000 asegura la seguridad mecánica del equipo, reduciendo riesgos 
+                    para los usuarios en áreas rurales o urbanas marginales.</p>
+                    <section id="Seguridad en el Tratamiento de Agua">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h3 class="Titulo 1">Seguridad en el Tratamiento de Agua</h3>
+                <p class="parrafo 1">En cuanto a la seguridad en la captación y purificación del agua, el diseño debe inculir tecnologías que cumplan
+                    con la Resolución 2115 del 2007, La cual fija los parámetros de calidad de agua para consumo humano. Los sistemas deben eliminar patógenos 
+                    y contaminantes, asegurando que el agua producida sea segura y no represente un riesgo para la salud pública.</p>
+                    <section id="Seguridad Ambiental">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h3 class="Titulo 1">Seguridad Ambiental</h3>
+                <p class="parrafo 1">Para mantener la sostenibilidad del proyecto, el sistema de captación del agua debe operar con un mínimo consumo energético y priorizar el uso de energías 
+                    renovables, como los paneles solares. Además, el diseño debe reducir le generación de residuos peligrosos y minimizar impactos como el ruido o el calor durante su operación.</p>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>
+            <summary>
+                <section id="Calidad">
+                <h2 class="Titulo 1">Calidad</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <h3 class="Titulo 1">Normas de Calidad del Sistema(ISO 9001, NTC 6078 E IEC 61215)</h3>
+                <p class="parrafo 1">Los componentes del sistema, como el condensador atmosférico, los paneles solares y los sistemas de purificación. deben cumplir con los estánderes de calidad reconocidos. El
+                    cumplimiento de la ISO 9001 para la gestión de calidad garantiza que los procesos de fabricación y operación sean fiables y eficientes. Además, la NTC 6078 y la IEC 61215 validad la calidad y 
+                    la durabilidad de los panles solares, Asegurando un funcionamiento óptimo y prolongado en las condiciones ambientales de la región.</p>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>
+            <summary>
+                <section id="Normativa Técnica y de Seguridad">
+                <h2 class="Titulo 1">Normativa Técnica y de Seguridad</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                        <section >
+                    <h3 class="Titulo 1">Certificaciones de Seguridad</h3>
+                    <p class="parrafo 1">Los paneles solares y sistemas electricos deben cumplir con la NTC 2050 y la Ley 1715 del 2014, que fomentan el uso de energías renovables y aseguran una instalación electrica 
+                        adecuada y segura. También, los sistemas de captación de agua deben seguir las normativas relacionadas con la calidad del agua, como la resolución 2115 del 2007, que asegura que el agua sea acta 
+                        para el consumo humano.</p>
+                        <section id="Certificaciones Internacionales">
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                            <details>
+                    <h3 class="Titulo 1">Certificaciones Internacionales</h3>
+                    <p class="parrado 1">El proyecto EcoGota puede optar por certificaciones internacionales, como la ISO 14001, que acredicta la gestión sostenible del medio ambiente, y la ISO 22000, que regula y inocuidad
+                        alimentaria en el tratamiento del agua, además, la certificación CE asegura que los productos cumplen con las normas de seguridad aplicablee en el mercado Europeo.</p>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>
+            <summary>
+                <section id="Aspectos Legales y Contractuales">
+                <h2 class="Titulo 1">Aspectos Legales y Contractuales</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                        <section>
+                        <h3 class="Titulo 1">Incentivos Fiscales y Beneficios Legales</h3>
+                        <p class="parrafo 1">La Ley 1715 del 2014 otorga incentivos fiscales que incluyen deducciones tributarias, exenciones del IVA y aranceles para la importación de equipo de energia renovable, lo cual favorece 
+                            el desarrollo e instalación de EcoGota. Es importante definir acuerdos contractuales claros con proveedores, instaladores y entidades financieras para asegurar la implementación exitosa del proyecto.</p>
+                            <section id="Permisos y Licencias Ambientales"> 
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details> 
+                        <h3 class="Titulo 1">Permisos y Licencias Ambientales</h3>
+                        <p class="parrafo 1">Si el proyecto genera un impacto significativo en el ciclo hidrológico local, podria ser necesario obtener permisos de la ANLA o el ministerio de ambiente, a fin de cumplir con las regulaciones 
+                            ambientales vigentes en el país.</p>
+                            <section id="Propiedad Intelectual"> 
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details> 
+                        <h3 class="Titulo 1">Propiedad Intelectual</h3>
+                        <p class="parrafo 1">Es recomendable proteger la innovaciones tecnologicas del proyecto mediante el registro de patentes y marcas comerciales para garantizar los derechos de propiedad intelectual.</p>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>
+            <summary>
+                <section id="Impactos Ambientales">
+                <h2 class="Titulo 1">Impactos Ambientales </h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                        <section>
+                        <h3 class="Titulo 1">Consumo Energetico y Sostenibilidad</h3>
+                        <p class="parrafo 1">El uso de paneles solares en EcoGota contribuye a la sostenibilidad del proyecto, al reducir la dependencia de fuentes de energia no renovables y la huella de carbono. El sistema esta 
+                            diseñado para hacer energeticamente eficiente, priorizando fuentes de energia renovable y minimizandosu impacto ambiental a largo plazo.</p>
+                            <section id="Uso de Materiales Reciclables">
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                <details>
+                        <h3 class="Titulo 1">Uso de Materiales Reciclables</h3>
+                        <p class="parrafo 1">El proyecto emplea materiales reciclables en la fabricacion de los equipos, reduciendo la generación de residuos y favoreciendo un ciclo de vida mas sostenible. Esto garantiza que el sistema 
+                            sea duradero y que los costos de mantenimiento y reemplazo sean mínimos.</p>
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                     </details>
+                </section>
+            </summary>
+            <summary>
+                <section id="¿Qué existe actualmente?">
+                <h2 class="Titulo 1">¿Qué existe actualmente?</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                        <p class="parrafo 1">Existen varias tecnologías y soluciones enfocadas en la condensación de agua apartir del aire, que han sido aplicadas en regiones con alta humedad, particularmente donde el acceso a fuentes de 
+                            agua potable es limitado.</p>
+                            <section>
+                        <h3 class="Titulo 1">Condensadores de Agua Atmosférica(AWG)</h3>
+                        <p class="parrafo 1">Estas máquinas extraen agua del aire utilizando condensación. Funcionan enfriando el aire hasta que el vapor de agua se convierte en líquido.Los ejemplos populares incluyen dispositivos como WaterSeer y Ecoloblue.</p><br>
+                            <b>Caracateristicas:<br></b>
+                               <b>• Principio de Funcionamiento:</b> Utilizan un compresor para enfriar el aire y un sistema de filtros para purificar el agua condensada.<br>
+                                <b>• Consumo Energetico:</b> En general son altamente dependientes de electricidad, lo que limita su uso en areas rurales sin acceso confiable a energia.<br>
+                                <b>• Producción Diario:</b> En condiciones óptimas, pueden general entre 20 a 30 litros de agua por día, pero esto varía según la humedad relativa.<br></p>
+                                <section id="Diferenciación del Proyecto:">
+                                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                    <details>
+                        <h2 class="Titulo 1">Diferenciación del Proyecto:</h2>
+                        <p class="parrafo 1"><b>• Eficiencia Energetica:</b> Uno de los principales puntos de mejora de nuestro proyecto podría ser la optimizacion del uso de energía, utilizando fuentes alternativas como energía solar o mecanismos pasivos para la condensación. Esto
+                            reduciría la dependencia energética de los sistemas tradicionales, haciéndolo más viable en áreas rurales con acceso limitado a electricidad.<br>
+                            <b>• Adaptación Local:</b> Nuestro poryecto podria centrarse en adaptar el diseño a las condiciones específicas del Caribe Colombiano, optimizando el proceso de condensación según la variabilidad de la humedad y temperatura locales, lo que incrementaria 
+                            la eficiencia en la recolección de agua.<br></p>
+                            <section id="Cosecha de niebla:">
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                <details>
+                        <h2 class="Titulo 1">Cosecha de niebla</h2>
+                        <p class="parrafo 1">Esta tecnología utiliza mallas que capturan gotas de agua de la niebla, las cuales luego se recolectan en contenedores. Esta técnica ha sido empleada exitosamente en regiones montañosas de Chile y Perú.</p><br>
+                           <b>Caracteristicas:<br></b>
+                                <b>•Costos:</b>Es relativamente barato y facil de instalar, con bajo requerimiento de mantenimiento.<br>
+                                <b>•Producción diaria:</b>Puede generar entre dos a diez litros de agua por metro cuadrado de malla, dependiendo de la densidad de la niebla.<br>
+                                <b>•Limitaciones:</b>Depende esclusivamente de la presencia de niebla, lo que la hace menos efectiva en áreas donde no es común.<br>
+                                <b>•Condiciones climáticas:</b>A diferencia de la niebla, el caribe colombiano tiene una alta humedad relativa, por lo que el método de condensación del aire es más apropiado que la cosecha de niebla. El prototipo de condensación de agua atmosférica 
+                                propuesto podría generar agua a patir del vapor sin depender de la presencia de niebla.<br>
+                                <b>•Purificacion integrada:</b>Una mejora significativa sería la implementación de un sistema integrado de purificación que garantice la potabilidad del agua condensada, asegurando que sea apta para el consumo humano sin necesidad de tratamientos erxternos.<br></p>
+                                <section id="Desalinización solar:">
+                                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                    <details>
+                        <h2 class="Titulo 1">Desalinización solar</h2>
+                        <p class="parrafo 1">Esta tecnologia utiliza el calor del sol para evaporar agua de fuentes salinas, eliminando el contenido de sal y otras impurezas para obtener agua potable.</p><br>
+                            <b>Caracteristicas:</b><br>
+                            <b>•Energía renovable:</b>Aprovecha la energia solar, lo que lo hace una solución sostenible<br>
+                            <b>•Aplicaciones:</b>Se utiliza en áreas costeras o desérticas, donde la única fuente de agua disponible es el agua salada.<br>
+                            <b>•Limitaciones:</b>La producción diaria de agua es relativamente baja y depende en gran medida de la intensidad solar, lo que puede no ser eficiente en áreas con nubosidad o clima variable.<br>
+                            <b>•Aplicación en zonas no costeras:</b>Mientras que la desalinización solar es adecuada para áreas con acceso a agua salada, nuestro proyecto puede tener una aplicación más amplia, dado que se enfoca en la condensación de vapor de agua del aire, lo que es más
+                            versátil y aplicable a diversas geografías, incluidas las áreas interiores del Caribe colombiano.<br>
+                            <b>•Eficiencia en producción de agua:</b>Nuestro sistema podría incorporar principios de refrigeración pasiva o solar, lo que permitiría mejorar la producción de agua condensada sin un consumo energético excesivo.<br></p>
+                            <section id="Enfriadores radiativos:">
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                <details>
+                        <h2 class="Titulo 1">Enfriadores radiativos </h2>
+                        <p class="parrafo 1">Estos dispositivos utilizan materiales altamente reflectantes que enfrían una superficie por debajo de la temperatura ambiente durante la noche, lo que permite la condensación de agua del aire.</p><br>
+                            <b>Caracteristicas:</b><br>
+                            <b>•Función nocturna:</b>Opera principalmente durante la noche, cuando las temperaturas disminuyen lo suficiente como para favorecer la condensación.<br>
+                            <b>•Consumo energético:</b>Estos sistemas no requieren electricidad, lo que los hace muy eficientes desde el punto de vista energético.<br>
+                            <b>•Mejora en la producción diurna:</b> Aunque los enfriadores radiativos son efectivos por la noche, nuestro proyecto puede diseñarse para funcionar tanto de día como de noche, aprovechando la alta humedad relativa y
+                             optimizando el sistema para producir agua de manera continua.<br>
+                             <b>•Innovación en almacenamiento:</b> Integrar un sistema de almacenamiento eficiente que conserve el agua condensada durante el día podría ser otra mejora significativa frente a estas tecnologías.<br>
+                             <section id="Propuestas del proyecto:">
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                <details>
+                        <h2 class="Titulo 1">Propuestas del proyecto</h2>
+                        <p class="parrafo 1"><b>•Eficiencia energética:</b>Al incorporar energías renovables como solar o mecanismos pasivos de enfriamiento, el sistema puede operar con un menor consumo de energía que los AWG tradicionales.<br>
+                            <b>•Adaptabilidad al entorno:</b> Un diseño optimizado para las condiciones climáticas específicas del Caribe colombiano diferenciará el proyecto de soluciones más generalizadas.<br>
+                            <b>•Purificación del agua:</b>El enfoque en un sistema de purificación integrado mejorará la seguridad del agua, mientras que muchas tecnologías requieren procesos externos para hacer el agua potable.<br>
+                            <b>•Costos reducidos:</b> Utilizando tecnologías simples y eficientes, podría reducir los costos de fabricación e implementación, haciéndolo accesible para comunidades rurales
+                             que no tienen grandes presupuestos para proyectos hídricos.<br></p>
+                             <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>
+            <center><section id="Entorno y Usuarios">
+                <h2 class="Titulo 1">Entorno En Donde Se Ubica El Proyecto Y Usuarios Quienes Lo Usaran</h2></center>
+            </section>
+            <summary>
+                <section id="Contexto geográfico:">
+                <h2 class="Titulo 1">Contexto geográfico:</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <p class="parrafo 1">El Caribe colombiano es una región caracterizada por su clima tropical, con temperaturas que suelen oscilar entre los 24°C y los 32°C, y una humedad relativa que en algunas zonas supera el 85%. Aunque la región 
+                    cuenta con abundantes cuerpos de agua (como ríos y lagunas), su acceso es limitado debido a la distribución desigual de los recursos hídricos y las infraestructuras. Las áreas costeras y planas del Caribe tienden a enfrentar temporadas 
+                    de sequía prolongadas, agravadas por los efectos del cambio climático, lo que afecta el suministro de agua en muchas comunidades.</p>
+                    <section id="Principales áreas de interés:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Principales áreas de interés:</h2>
+                <p class="parrafo 1">Zonas rurales y semiurbanas de los departamentos de La Guajira, Magdalena, Atlántico, Bolívar y Sucre, donde la escasez de agua potable es una problemática recurrente. En áreas urbanas como 
+                    Santa Marta y Cartagena, la alta demanda de agua por parte del turismo agrava el acceso a las poblaciones locales. </p>
+                    <section id="Contexto social:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Contexto social:</h2>
+                <p class="parrafo 1">La región Caribe es conocida por su diversidad étnica, con poblaciones indígenas, afrocolombianas y mestizas que conviven en zonas rurales y urbanas. Muchas de las comunidades en esta región enfrentan 
+                    dificultades relacionadas con la pobreza y la falta de acceso a servicios básicos como agua potable. Las comunidades rurales y las áreas urbanas marginales son especialmente vulnerables a la escasez de agua,
+                     lo que afecta su calidad de vida y limita sus oportunidades de desarrollo.<br>
+                    La infraestructura de distribución de agua en algunas áreas es insuficiente o deteriorada, lo que ha llevado a que muchas familias dependan de sistemas alternativos como la recolección de
+                     agua de lluvia o el uso de carros cisterna, especialmente en los departamentos de La Guajira y Magdalena.</p>
+                     <section id="Problemática social:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Problemática social:</h2>
+                <p class="parrafo 1">El acceso desigual al agua potable tiene efectos directos en la salud pública, ya que la falta de agua limpia incrementa la prevalencia de enfermedades transmitidas por el agua. 
+                    Además, la escasez de agua crea tensiones sociales y afecta las actividades económicas locales, especialmente en sectores como la agricultura y el turismo.</p>
+                    <section id="Contexto económico:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Contexto económico:</h2>
+                <p class="parrafo 1">La economía de la región Caribe depende en gran medida de sectores como la agricultura, la pesca, el turismo y la minería. Sin embargo, muchas de estas actividades
+                     se ven afectadas por la disponibilidad limitada de agua. En áreas rurales, la agricultura de subsistencia y los sistemas de riego tradicionales son ineficientes y dependientes de las lluvias, 
+                     lo que incrementa la vulnerabilidad económica de las comunidades durante las sequías.<br>
+                     En ciudades como Santa Marta y Cartagena, el turismo es una fuente importante de ingresos, pero su demanda de agua potable y servicios afecta el suministro disponible para la población local.
+                     La falta de inversión en infraestructura hídrica y la gestión ineficaz de los recursos limitan las oportunidades económicas en la región, particularmente para las poblaciones más pobres.</p>
+                     <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    </details>
+                </section>
+            </summary>      
+
+            <center><section id="Características de los Beneficiados">
+                <h2 class="Titulo 1">Características de los usuarios beneficiarios:</h2></center>
+            </section>
+            <summary>
+                <section id="Comunidades rurales:">
+                <h2 class="Titulo 1">Comunidades rurales:</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <p class="parrafo 1">Los principales beneficiarios serán las poblaciones rurales del Caribe, especialmente en zonas con acceso limitado al agua potable y que dependen de métodos alternativos 
+                    como la recolección de agua de lluvia. Estas comunidades generalmente tienen menos recursos económicos, alta dependencia de actividades agrícolas y un acceso limitado a tecnologías modernas.<br>
+                    <section id="Áreas urbanas marginales:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Áreas urbanas marginales:</h2>
+                <p class="parrafo 1">En las zonas urbanas, el proyecto beneficiará a comunidades de bajos ingresos que sufren de cortes frecuentes de agua o dependientes de caros sistemas 
+                    de distribución alternativos, como el suministro mediante carros cisterna. </p>
+                    <section id="Poblaciones indígenas y afrocolombianas:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Poblaciones indígenas y afrocolombianas:</h2>
+                <p class="parrafo 1">Muchas de estas comunidades, especialmente en La Guajira y Magdalena, enfrentan una doble vulnerabilidad debido a su situación económica y la falta de infraestructura básica.
+                     Además, estas comunidades han sido habitualmente excluidas de políticas públicas que aseguran un acceso sostenible al agua.</p>
+                     <section id="Pequeños agricultores:">
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                <h2 class="Titulo 1">Pequeños agricultores:</h2>
+                <p class="parrafo 1">Los agricultores locales podrían utilizar el agua condensada para fines agrícolas, reduciendo su dependencia de las lluvias estacionales y mejorando la seguridad alimentaria en la región. <br>
+                    Este proyecto no solo mejorará el acceso al agua potable para las comunidades más vulnerables, sino que también contribuirá a mitigar los efectos sociales y económicos derivados de la escasez de agua,
+                     creando oportunidades para el desarrollo sostenible en la región</p>
+                     <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                </details>
+                </section>
+            </summary>
+
+            <center><section id="Disciplinas o Ciencias Involucradas">
+                <h2 class="Titulo 1">Disciplinas O Ciencias Que Se Involucran</h2></center>
+            </section>
+            <summary>
+                <section id="Ingeniería mecánica:">
+                <h2 class="Titulo 1">Ingeniería mecánica:</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <p> <b>Rol:</b>Diseño y desarrollo del sistema de condensación.<br>
+                    <b> Descripción:</b> Esta disciplina se encarga del diseño de los mecanismos que permitirán la condensación eficiente del vapor de agua en el aire, incluyendo los sistemas de ventilación,
+                     disipadores de calor y materiales que optimizan el proceso de enfriamiento. La ingeniería mecánica también se ocupa de la estructura física del condensador, asegurando su resistencia y
+                     durabilidad frente a las condiciones climáticas del Caribe colombiano.</p>
+                     <section id="Ingeniería Eléctrica:">
+                        <h2 class="Titulo 1">Ingeniería Eléctrica:</h2>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                            <details>
+                        <p> <b>Rol:</b> Diseño y desarrollo del sistema de condensación.<br>
+                            <b> Descripción:</b> Es crucial para garantizar que el sistema de condensación funcione de manera autónoma o con mínima intervención humana.
+                             Esto incluye la integración de fuentes de energía renovable, como paneles solares, para alimentar el sistema en áreas rurales o con acceso limitado a la red eléctrica.
+                             Además, se optimiza el consumo energético de los componentes eléctricos del condensador.</p>
+                             <section id="Ingeniería química:">
+                                <h2 class="Titulo 1">Ingeniería química:</h2>
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                    <details>
+                                <p> <b>Rol:</b>Tratamiento y purificación del agua.<br>
+                                    <b>Descripción:</b>Una vez condensada el agua del aire, esta disciplina se encarga de los procesos necesarios para garantizar que el agua sea apta para el consumo humano.
+                                     Esto incluye la eliminación de contaminantes, microorganismos y partículas que pudieran haberse adherido durante el proceso de condensación. 
+                                     También interviene en la selección de materiales y tecnologías de filtrado y purificación.</p>
+                <section id="Ciencias ambientales:">
+                    <h2 class="Titulo 1">Ciencias ambientales:</h2>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                    <p><b>Rol:</b>Evaluación de impactos y sostenibilidad.<br>
+                    <b> Descripción:</b> Esta disciplina se enfoca en la evaluación del impacto ambiental del proyecto, asegurando que la extracción de agua atmosférica no afecte negativamente los ecosistemas locales. 
+                        Además, garantiza que el proyecto sea sostenible a largo plazo, minimizando el consumo de energía y maximizando el uso de fuentes renovables. 
+                        También colabora en el análisis de los efectos del cambio climático en la disponibilidad de agua en la atmósfera.</p>
+                        <section id="Ingeniería civil:">
+                        <h2 class="Titulo 1">Ingeniería civil:</h2>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                            <details>
+                        <p><b>Rol:</b>Infraestructura y emplazamiento del condensador.<br>
+                        <b>Descripción:</b>La ingeniería civil es fundamental para la selección del sitio y la construcción de la infraestructura necesaria para instalar el condensador.
+                            Se encargan de asegurar que el sistema esté adecuadamente protegido de los elementos y optimizado para el clima de la región.
+                            Además, se considera el acceso para la instalación y mantenimiento en áreas rurales.</p>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        </details>
+                        </section>
+                    </summary>
+                    <summary>
+                        <center><section id="Encuesta">
+                            <h2 class="Titulo 1">Encuesta</h2>
+                        <details>
+                            <p class="Parrafo 1">Con el fin de obtener información relevante para el desarrollo del proyecto EcoGota, se llevó a cabo una encuesta dirigida a un total de 42 personas. 
+                                            El objetivo principal de esta encuesta fue identificar las necesidades, expectativas y percepciones de los posibles usuarios respecto a un sistema que genera agua potable a partir del aire.<br>
+                                            La encuesta abordó temas relacionados con el consumo de agua diario, las prioridades en el uso de agua potable, las fuentes de energía preferidas, 
+                                            la sostenibilidad del sistema, su mantenimiento y la disposición de la comunidad para colaborar en su implementación. Los resultados obtenidos nos brindan una perspectiva
+                                            valiosa que contribuirá al diseño y funcionalidad del sistema, garantizando que se ajuste a las necesidades reales de los usuarios y sea factible de implementar en diferentes contextos.</p>
+                        </details>
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a></center>
+                            </section>
+                            <section id="Necesidades Diarias de Agua:">
+                                <h2 class="Titulo 1">Necesidades Diarias de Agua:</h2>
+                                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                            <details>
+                        <center><img src="img/foto1.jpeg" width="80%" height="80%">
+                            <p class="parrafo 1"><b>Resultados:</b>La mayoría considera suficiente entre 20 y 50 litros por familia. Este rango es adecuado para cubrir las necesidades básicas de una familia promedio, 
+                                que incluye beber, cocinar y algunas tareas de limpieza.<br>
+                                <b>Decisión:</b> Diseñar un sistema de recolección de agua que pueda garantizar al menos esta cantidad de agua diaria, priorizando la eficiencia en la captación y almacenamiento.</br></p></center>
+                    
+                                <h2 class="Titulo 1">Usos Principales del Agua Potable:</h2>
+                                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                                <details>
+                        <center><img src="img/foto2.jpeg" width="80%" height="80%">
+                            <p class="parrafo 1"><b>Resultados:</b> Los usos principales son beber y cocinar, con algunos interesados en su uso para limpieza y agricultura.<br>
+                                    <b>Decisión:</b> Asegurar que el sistema de producción o captación de agua priorice la calidad del agua para consumo humano, mientras que se considere 
+                                    la posibilidad de diseñar un sistema de purificación adicional para usos no potables.<br></p></center>
+                                
+                                    <h2 class="Titulo 1">Preferencia de Energía Solar:</h2>
+                                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                            <details>
+                        <center><img src="img/foto3.jpeg" width="80%" height="80%">
+                            <p class="parrafo 1"><b>Resultados:</b>La mayoría prefiere un sistema totalmente solar, aunque algunos sugieren un respaldo eléctrico.<br>
+                                <b>Decisión:</b>Invertir en un sistema que funcione completamente con energía solar, considerando la inclusión de un respaldo eléctrico como una opción futura.<br></p></center>
+                                
+                                <h2 class="Titulo 1">Batería de Energía Solar:</h2>
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                    <center><img src="img/foto4.jpeg" width="80%" height="80%">
+                        <p class="parrafo 1"><b>Resultados:</b>Unánimamente se considera que debería incluir una batería para funcionar sin interrupciones.<br>
+                            <b>Decisión:</b>Asegurar que el diseño del sistema incluya almacenamiento de energía, lo que permitirá operar de manera continua incluso en días nublados.<br></p></center>
+
+                            <h2 class="Titulo 1">Importancia de la Seguridad del Agua:</h2>
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                    <center><img src="img/foto5.jpeg" width="80%" height="80%">
+                        <p class="parrafo 1"><b>Resultados:</b>Muchos creen que el agua debe ser 100% potable, aunque algunos aceptan que pueda tener otros usos.<br>
+                            <b>Decisión:</b>Enfocar los esfuerzos en un sistema que garantice la potabilidad del agua, priorizando tecnologías de filtración y purificación.<br></p></center>
+
+                            <h2 class="Titulo 1">Costo vs. Producción:</h2>
+                                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                    <center><img src="img/foto6.jpeg" width="80%" height="80%">
+                        <p class="parrafo 1"><b>Resultados:</b>La mayoría prefiere un sistema más económico aunque produzca menos agua.<br>
+                            <b>Decisión:</b>Buscar soluciones de bajo costo que puedan ser escalables en producción, para asegurar que más familias puedan beneficiarse del sistema.<br></p></center>
+
+                            <h2 class="Titulo 1">Apoyo Gubernamental:</h2>
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                <center><img src="img/foto7.jpeg" width="80%" height="80%">
+                    <p class="parrafo 1"><b>Resultados:</b>Casi todos creen que el sistema debería recibir apoyo gubernamental o de ONG.<br>
+                        <b>Decisión:</b>Iniciar diálogos con entidades gubernamentales y ONGs para explorar oportunidades de financiamiento y apoyo técnico.<br></p></center>
+
+                        <h2 class="Titulo 1">Frecuencia de Mantenimiento:</h2>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+    <details>
+<center><img src="img/foto8.jpeg" width="80%" height="80%">
+    <p class="parrafo 1"><b>Resultados:</b> La opción más común es cada tres meses.<br>
+        <b>Decisión:</b>un protocolo de mantenimiento fácil y accesible, que permita a los usuarios realizarlo sin complicaciones.<br></p></center>
+
+                    <h2 class="Titulo 1">Diseño Compacto:</h2>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+    <details>
+<center><img src="img/foto9.jpeg" width="80%" height="80%">
+    <p class="parrafo 1"><b>Resultados:</b>La mayoría desea un sistema compacto y fácil de instalar.<br>
+        <b>Decisión:</b>Enfocar el diseño del sistema en dimensiones reducidas y una instalación sencilla para facilitar la adopción en hogares y comunidades.<br></p></center>
+                
+                <h2 class="Titulo 1">Importancia Medioambiental:</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+    <details>
+<center><img src="img/foto10.jpeg" width="80%" height="80%">
+    <p class="parrafo 1"><b>Resultados:</b>Hay un gran interés en que el sistema sea amigable con el medio ambiente.<br>
+        <b>Decisión:</b>materiales sostenibles y tecnologías limpias en el diseño del sistema, promoviendo su impacto positivo en el medio ambiente.<br></p></center>
+
+            <h2 class="Titulo 1">Impacto Comunitario:</h2>
+            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+    <details>
+<center><img src="img/foto11.jpeg" width="80%" height="80%">
+    <p class="parrafo 1"><b>Resultados:</b>Se cree que el sistema debería beneficiar a más de 30 personas para ser efectivo.<br>
+        <b>Decisión:</b>Diseñar el sistema con un enfoque comunitario, asegurando que su alcance beneficie a grupos suficientes para maximizar su impacto.<br></p></center>
+
+        <h2 class="Titulo 1">Uso Compartido o Individual:</h2>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto12.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Hay preferencia por el uso compartido en comunidades.<br>
+    <b>Decisión:</b>Implementar un modelo de uso comunitario que fomente la colaboración entre vecinos y reduzca costos individuales.<br></p></center>
+
+    <h2 class="Titulo 1">Adaptabilidad Futura:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto13.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>La mayoría quiere un sistema que pueda ampliarse en el futuro.<br>
+    <b>Decisión:</b> Asegurar que el sistema sea modular y pueda expandirse a medida que crecen las necesidades de la comunidad.<br></p></center>
+
+    <h2 class="Titulo 1">Adaptación Climática:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto14.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Es importante que funcione en distintas condiciones climáticas.<br>
+    <b>Decisión:</b>ñar el sistema para que sea versátil y efectivo en diversas condiciones meteorológicas, lo que incluye resiliencia ante sequías o lluvias excesivas.<br></p></center>
+
+    <h2 class="Titulo 1">Aspectos Importantes:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto15.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Los aspectos más destacados incluyen ser económico, funcionar con energía solar y ser fácil de mantener.<br>
+    <b>Decisión:</b> Priorizar estos elementos en el desarrollo y diseño del sistema, asegurando su viabilidad a largo plazo.<br></p></center>
+
+    <h2 class="Titulo 1">Movilidad o Resistencia:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto16.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>La mayoría prefiere un sistema móvil.<br>
+    <b>Decisión:</b>Considerar un diseño que permita la movilidad del sistema, facilitando su uso en diferentes ubicaciones.<br></p></center>
+
+    <h2 class="Titulo 1">Importancia Estética:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto17.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Moderadamente importante, priorizando la funcionalidad.<br>
+    <b>Decisión:</b>Aunque la estética no es la prioridad, se puede trabajar en un diseño visualmente agradable que no comprometa la funcionalidad.<br></p></center>
+
+    <h2 class="Titulo 1">Uso en Espacios Comunitarios:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto18.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Se considera útil en lugares comunitarios como escuelas o centros de salud.<br>
+    <b>Decisión:</b>Planificar la implementación del sistema en espacios comunitarios para maximizar su impacto y promover la salud pública.<br></p></center>
+
+    <h2 class="Titulo 1">Disposición a Compartir Costos:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto19.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Se percibe disposición a discutir la posibilidad de compartir costos de mantenimiento.<br>
+    <b>Decisión:</b>Facilitar acuerdos entre miembros de la comunidad para compartir costos, asegurando un mantenimiento más sostenible del sistema.<br></p></center>
+
+    <h2 class="Titulo 1">Otras Fuentes de Agua:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto20.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>La mayoría indica que no hay fuentes confiables o suficientes.<br>
+    <b>Decisión:</b>la importancia del sistema de captación de agua como una solución viable ante la falta de fuentes confiables.<br></p></center>
+
+    <h2 class="Titulo 1">Capacidad de Almacenamiento:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto21.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>La mayoría lo considera muy importante para asegurar agua en días de poca humedad.<br>
+    <b>Decisión:</b>Incluir una capacidad de almacenamiento adecuada para mitigar el impacto de la estacionalidad en la disponibilidad de agua.<br></p></center>
+
+    <h2 class="Titulo 1">Conexión a Tuberías:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto22.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b>Hay opiniones divididas entre conexión a tuberías y un sistema independiente.<br>
+    <b>Decisión:</b> ambas opciones en el diseño del sistema, permitiendo a los usuarios elegir según sus necesidades y condiciones.<br></p></center>
+
+    <h2 class="Titulo 1">Beneficios Adicionales:</h2>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+<details>
+<center><img src="img/foto23.jpeg" width="80%" height="80%">
+<p class="parrafo 1"><b>Resultados:</b> La calidad de vida y menor dependencia de otras fuentes de agua son los beneficios más esperados.<br>
+    <b>Decisión:</b> Enfatizar estos beneficios en la promoción del sistema, mostrando cómo contribuye a mejorar la calidad de vida y la autosuficiencia.<br></p></center>
+</details>
+</section>
+                    </summary>
+                    <summary>
+                        <center><section id="Boceto">
+                            <h2 class="Titulo 1">Boceto</h2>
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                            <p class="Parrafo 1">El siguiente esquema muestra un sistema sostenible de recolección y purificación de agua para el proyecto EcoGota. El sistema 
+                                está compuesto por un condensador atmosférico, paneles solares para su funcionamiento, un sistema de filtración y un tanque de almacenamiento. 
+                                Este diseño permite la obtención de agua del aire, su purificación y su almacenamiento eficiente para su uso posterior, todo alimentado por energía solar.</p>
+                <img src="img/boceto.jpeg" width="40%" height="40%"></center>
+                            </details>
+                        </section>
+                    </summary>
+                    <summary>
+        <section id="Etapa 1">
+                            <h2 class="Titulo 1">Etapa 1</h2>
+                            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                        <details>
+                            <h3 class="Titulo 1">Captación de Agua Atmosférica:</h3>
+                            <p class="Parrafo 1"><b>• Condensador Atmosférico:</b> El sistema incluye un condensador atmosférico que extrae la humedad del aire. Este dispositivo enfría el aire hasta 
+                                que alcanza el punto de condensación, permitiendo que las gotas de agua se formen.</p>
+                            <p class="Parrafo 1"><b>•Proceso de Condensación:</b> El aire pasa a través de una superficie fría dentro del condensador, provocando la condensación del vapor de agua 
+                                presente en la atmósfera, especialmente eficaz en regiones de alta humedad como el Caribe colombiano.</p>
+                        </details>
+                    </section>
+                </summary>
+                <summary>
+        <section id="Etapa 2">
+                        <h2 class="Titulo 1">Etapa 2</h2>
+                        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                    <details>
+                        <h3 class="Titulo 1">Filtración y Purificación del Agua:</h3>
+                        <p class="Parrafo 1"><b>• Filtro de Partículas:</b> Una vez que el agua se condensa, pasa por un filtro de partículas para eliminar impurezas físicas como polvo o tierra.</p>
+                        <p class="Parrafo 1"><b>• Carbón Activado:</b> Después de la filtración inicial, el agua pasa por un filtro de carbón activado para eliminar compuestos orgánicos, mejorar su sabor y olor.</p>
+                        <p class="Parrafo 1"><b>• Desinfección:</b> El agua es tratada finalmente con rayos UV o cloro para eliminar cualquier patógeno (bacterias, virus, protozoos) y asegurar que sea 
+                        completamente segura para el consumo humano.</p>
+                    </details>
+                </section>
+            </summary>
+            <summary>
+        <section id="Etapa 3">
+                    <h2 class="Titulo 1">Etapa 3</h2>
+                    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+                <details>
+                    <h3 class="Titulo 1">Almacenamiento:</h3>
+                    <p class="Parrafo 1"><b>• Tanque de Almacenamiento:</b> El agua purificada se almacena en un tanque cerrado, diseñado para evitar que el agua se contamine nuevamente. Este tanque está equipado con 
+                        un sistema de control para monitorear los niveles de agua y activar la captación cuando sea necesario.</p>
+                </details>
+            </section>
+        </summary>
+        <summary>
+        <section id="Etapa 4">
+                <h2 class="Titulo 1">Etapa 4</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+            <details>
+                <h3 class="Titulo 1">Generación de Energía:</h3>
+                <p class="Parrafo 1"><b>• Paneles Solares:</b> El sistema cuenta con paneles solares que proveen la energía necesaria para la operación del condensador y el sistema de purificación de agua. Esta energía 
+                    también puede almacenarse en baterías para garantizar el funcionamiento durante la noche o en días nublados.</p>
+                <p class="Parrafo 1"><b>• Autosuficiencia Energética:</b> Gracias a los paneles solares, el sistema puede operar de manera autosuficiente sin depender de fuentes de energía externas.</p>
+            </details>
+        </section>
+    </summary>
+    <summary>
+        <section id="Etapa 5">
+            <h2 class="Titulo 1">Etapa 5</h2>
+            <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+            <h3 class="Titulo 1">Distribución:</h3>
+            <p class="Parrafo 1"><b>• Distribución de Agua:</b> Una vez que el agua es purificada y almacenada en el tanque, está lista para ser distribuida a los usuarios. Este sistema puede ser utilizado en comunidades 
+                rurales o marginales, proporcionándoles una fuente confiable de agua potable.</p>
+        </details>
+    </section>
+</summary>
+<summary>
+<center><section id="Costos">
+    <h2 class="Titulo 1">Costos</h2>
+<details>
+    <p class="parrafo 1">El desarrollo del proyecto EcoGota implica una inversión inicial significativa, así como costos recurrentes asociados con el mantenimiento y operación de los sistemas implementados. Este análisis 
+        de costos se centra en tres componentes fundamentales: los condensadores atmosféricos de agua (AWG), los paneles solares para generación de energía, y los sistemas de filtración y purificación de agua. Se estima que, 
+        para abastecer a una comunidad de 500 habitantes, el costo total del sistema puede oscilar entre $301,000,000 y $522,000,000 COP. Además, se contemplan gastos anuales de mantenimiento que varían entre $19,000,000 y 
+        $22,000,000 COP. A continuación, se presenta un desglose detallado de cada componente y sus respectivos costos, proporcionando una visión clara de la inversión necesaria para garantizar el acceso sostenible al agua potable 
+        en la comunidad</p>
+    </details>
+    <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a></center>
+    </section>
+</summary>
+<summary>
+    <section id="Condensadores Atmosfericos de Agua (AWG)">
+      <h3 class="Titulo 1">Condensadores Atmosféricos de Agua (AWG)</h3>
+      <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+      <details>
+    <p><b>•	Capacidad requerida:</b> Para una comunidad de 500 personas se necesitan aproximadamente 5,000-7,000 litros de agua diarios.<br></p>
+    <p><b>•	Solución:</b> Se requieren aproximadamente 4 condensadores atmosféricos de alta capacidad, produciendo 1,500-2,000 litros diarios cada uno.<br></p>
+    <h3 class="Titulo 1">Costos</h3>
+    <p><b>o	Condensadores:</b> $40,000,000 - $60,000,000 COP por unidad.<br></p>
+    <p><b>o	Total:</b> $160,000,000 - $240,000,000 COP.<br></p>
+    <p><b>o	Mantenimiento anual:</b> $2,000,000 COP por unidad, total $8,000,000 COP.<br></p>
+      </details>
+    </section>
+</summary>
+<summary>
+    <section id="Paneles Solares">
+        <h3 class="Titulo 1">Paneles Solares</h3>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+    <p><b>•	Capacidad requerida:</b> alimentar los condensadores y el sistema de filtración, se requiere un sistema de energía solar de 8-12 kW.<br></p>
+    <h3 class="Titulo 1">Costos</h3>
+    <p><b>o	Paneles:</b> $8,000,000 - $16,000,000 COP por kW.<br></p>
+    <p><b>o	Total:</b> $80,000,000 - $160,000,000 COP.<br></p>
+    <p><b>o	Instalación y almacenamiento (baterías):</b> $15,000,000 - $30,000,000 COP.<br></p>
+    <p><b>o	Mantenimiento anual:</b> $4,000,000 - $7,000,000 COP.<br></p>
+        </details>
+    </section>
+</summary>
+<summary>
+    <section id="Sistemas de Filtración y Purificación de Agua">
+        <h3 class="Titulo 1">Sistemas de Filtración y Purificación de Agua</h3>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+    <p><b>•	Capacidad requerida:</b>Filtración para 5,000 litros de agua diarios.<br></p>
+    <p><b>•	Solución:</b>Uso de filtros de partículas, carbón activado y sistemas UV.<br></p>
+    <h3 class="Titulo 1">Costos</h3>
+    <p><b>o	Sistemas de filtración:</b> $20,000,000 - $40,000,000 COP.<br></p>
+    <p><b>o	Mantenimiento anual:</b> $3,000,000 COP para reemplazo de filtros cada 6-12 meses.<br></p>
+        </details>
+    </section>
+</summary>
+<summary>
+    <section id="Tanques de Almacenamiento">
+        <h3 class="Titulo 1">Tanques de Almacenamiento</h3>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+    <p><b>•Capacidad requerida:</b> Almacenar 7,000 litros de agua.<br></p>
+    <h3 class="Titulo 1">Costos</h3>
+    <p><b>o	Tanques de almacenamiento:</b> $6,000,000 - $12,000,000 COP.<br></p>
+    <p><b>o	Mantenimiento anual:</b> $1,000,000 COP.<br></p>
+        </details>
+    </section>
+</summary>
+<summary>
+    <section id="Componentes Eléctricos">
+        <h3 class="Titulo 1">Componentes Eléctricos</h3>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+    <p><b>•Inversores y baterías:</b> Necesarios para gestionar la energía generada por los paneles solares.<br></p>
+    <h3 class="Titulo 1">Costos</h3>
+    <p><b>o	Inversores y componentes eléctricos:</b> $20,000,000 - $40,000,000 COP.<br></p>
+    <p><b>o	Mantenimiento anual:</b> $3,000,000 COP.<br></p>
+        </details>
+    </section>
+</summary>
+<summary>
+    <center><section id="Conclusiones">
+        <h2 class="Titulo 1">Conclusiones</h2>
+        <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+    <details>
+        <p class="parrafo 1">Acceso al Agua Potable: EcoGota contribuye a mejorar el acceso al agua potable en comunidades vulnerables del Caribe colombiano, abordando la escasez de este recurso crítico.
+            <br>
+            <b>Energía Renovable: </b> La integración de paneles solares permite que el sistema sea autosuficiente energéticamente, alineándose con prácticas sostenibles y reduciendo la dependencia de fuentes no renovables.
+            <br>
+            <b>Calidad del Agua: </b>  El sistema de condensación garantiza agua de calidad, cumpliendo con los estándares de potabilidad exigidos por la normativa colombiana y la OMS.
+            <br>
+            <b>Beneficios Sociales: </b>  EcoGota genera empleo local durante la instalación y mantenimiento del sistema, contribuyendo al desarrollo económico de la comunidad.
+            <br>
+            <b>Replicabilidad: </b> El modelo puede ser adaptado y replicado en otras regiones con condiciones similares, ampliando su impacto en el acceso al agua y la sostenibilidad.</p></center>
+    </details>
+    </section>
+</summary>
+<summary>
+    </summary>
+    <center><section id="Referencias">
+        <h2 class="Titulo 1">Referencias</h2>
+                <a href="#Tabla-Contenido">Volver a la Tabla de Contenido</a>
+        <details>
+            <p class="parrafo 1">• OMS), O. M. (s.f.). Normas de la Organización Mundial de la Salud (OMS) para la calidad del agua potable.<br></p>
+            <p>• Agencia Nacional de Licencias Ambientales (ANLA). (s.f.). Obtenido de https://www.anla.gov.co/<br></p>
+            <p>• Andes, U. d. (s.f.). En Colombia, 48 % del agua se pierde en sistemas de distribución.<br></p>
+            <p>• Botero, L. A. (s.f.). LA PARADOJA DE LA DISPONIBILIDAD. Revista ingenieria.<br></p>
+            <p>• Certificación), I. (. (s.f.). Normas Técnicas Colombianas (NTC 1000 y NTC 2050) (Seguridad eléctrica y mecánica).<br></p>
+            <p>• Colombia, M. d. (s.f.). Decreto 1575 de 2007 y Resolución 2115 de 2007 (Normativa colombiana de calidad del agua potable).<br></p>
+            <p>• Colombia, M. d. (s.f.). Ley 99 de 1993 (Normativa ambiental en Colombia):<br></p>
+            <p>• Corporación Autónoma Regional del Atlántico (CRA). (s.f.). Obtenido de https://www.crautonoma.gov.co/<br></p>
+            <p>• Cosecha de Niebla. (s.f.). Obtenido de https://fogquest.org/<br></p>
+            <p>• Desalinización Solar. (s.f.). Obtenido de https://www.irena.org/<br></p>
+            <p>• Instituto de Estudios Ambientales (IDEA) de la Universidad Nacional de Colombia. (s.f.). Obtenido de https://idea.unal.edu.co/<br></p>
+            <p>• Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM). (s.f.). Obtenido de https://www.ideam.gov.co/<br></p>
+            <p>• International, N. (s.f.). NSF/ANSI 61 (Certificación de materiales en contacto con agua potable).<br></p>
+            <p>• LOS RETOS DEL ACCESO A AGUA POTABLE Y SANEAMIENTO BÁSICO DE LAS ZONAS RURALES EN COLOMBIA. (s.f.). revista uniandes.<br></p>
+            <p>• Ministerio de Vivienda, Ciudad y Territorio de Colombia. (s.f.). Obtenido de https://www.minvivienda.gov.co/<br></p>
+            <p>• Moreno, A. M. (s.f.). PROYECTO DE GRADO EN INGENIERÍA AMBIENTAL. UNIVERSIDAD DE LOS ANDES.<br></p>
+            <p>• Organización Mundial de la Salud (OMS). (s.f.). Obtenido de https://www.who.int/es<br></p>
+            <p>• Plan Nacional de Adaptación al Cambio Climático (PNACC). (s.f.). Obtenido de https://www.minambiente.gov.co/<br></p>
+            <p>• Regulación Ambiental en Colombia (Normas ISO y NTC). (s.f.). Obtenido de https://co.isotools.us/normas/ntc-iso-14001/#:~:text=En%20Colombia%2C%20se%20denomina%20NTC,se%20desarrolla%20respetando%20el%20entorno.<br></p>
+            <p>• tecnologías hídricas. (s.f.). Obtenido de https://www.fao.org/home/en<br></p>
+            <p>• WaterSeer. (s.f.). Obtenido de https://waterseer.org/<br></p></center>
+        </details>
+        </section>
+</summary>
+         </main>
+    </DIV>
+    <br>
+    <br>
+    
+    <footer>
+        <h2>EcoGota</h2>
+        <h4>Desarrolado por: DAYANA CAMILA G&Oacute;MEZ MANJARRES Y JENNIE ANDREA ARANZALEZ REDONDO</h4>
+    </footer>
+</body>

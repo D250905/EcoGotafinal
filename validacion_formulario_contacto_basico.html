@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+        <header>
+            <center><img src="./img/imagen_logo_ucun.png" width="40%" height="40%">
+            <h1>EcoGota</h1>
+            <h2>Dayana Gómez y Jennie Aranzalez</h2>
+            <h3>Ingenieria Mecatrónica</h3></center>
+            <link rel="stylesheet" href="./CSS/index.css">
+            <br><hr><br>
+        </header>
+    
+        <nav>
+            <ul>
+                <center><li><a href="./index.html">Inicio</a></li>
+                <li><a href="./html/glosario_fundamentos_ingenieria.html">Glosario Ingeniería</a></li>
+                <li><a href="./html/glosario_pensamiento_algoritmico.html">Glosario Algorítmico</a></li>
+                <li><a href="./validacion_formulario_contacto_basico.html">Contacto</a></li>
+    
+            </ul>
+        </nav>
+    
+        <br><hr><br>
+        <center><p class="DefProyecto">EcoGota capta agua del aire en zonas húmedas para proveer agua potable a comunidades vulnerables, usando tecnología de condensación y purificación eficiente.</p>
+        <img id="imagen_articulo1" src="img/EcoGota-removebg-preview.png" width="20%" height="30%"></center>
+        <br><hr><br>
+  <head>
+    <!-- <meta http-equiv="content-type" content="text/html"; charset="utf-8"> -->
+    <meta http-equiv="content-type" content="text/html"; charset="iso-8859-1"> 
+    <meta name="description" content="Ejercicios para validación de datos">
+    <meta name="keyworks" content="validar campos, expresiones regulares">
+    <title>EJERCICIO VALIDADOR DATOS FORMULARIO</title>
+
+    <style type="text/css">
+        body {background-color:lightcyan; font-family: sans-serif;}
+        label {color: maroon; display:block; padding:5px;}
+	    input {margin:10px;}
+    </style>
+
+    <script type="text/javascript" src="js/funciones_validacion_formularios_basico.js"></script>    
+
+</head>
+   <center><h2>CONTACTO:</h2><hr><br>
+    <! ----------------------------------------- -->  
+    <form name="miniformulario" class="formulario" method="get" onsubmit="return validarDatos()" action="pagina2.php">
+        
+        <label for="nombre">Nombre</label>   
+        <input type="text" id="nombre" name="nombre" placeholder="ingrese el Nombre..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+        
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" name="apellido" placeholder="ingrese el Apellido..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+        
+        <label for="edad">edad</label>
+        <input type="text" id="edad" name="edad" placeholder="edad..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+        
+        <label for="fecha">fecha nacimiento</label>
+        <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa"/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+
+        
+        <label style='display: inline;'>Género:</label>
+        <img id="img_valida_genero" width="20" height="20"  style='visibility: hidden;' />
+        <ul>
+            <li>
+            <input type="radio" id="genF" name="genero" value="F" /> 
+            <label for="genF" style='display: inline;' >Femenino</label> 
+            </li>
+            <li>
+                <input type="radio" id="genM"  name="genero" value="M" />
+                <label for="genM" style='display: inline;' >Masculino</label>
+            </li>
+
+        </ul>
+        
+      
+         
+        <label for="email">Correo electronico</label>
+        <input type="text" id="email" name="email" placeholder="ej.. nombre@dominio.ext"/><img width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+         
+        <label for="telefono">Númeo telefónico</label>
+        <input type="text" id="telefono" name="telefono" placeholder="mínimo 7 dígitos"/><img width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+        
+
+        <label style='display: inline;'>Mensaje, comentarios y sugerencias:</label>
+        <img id="img_valida_mensaje" width="20" height="20"  style='visibility: hidden;' /><br/>
+        <textarea rows='6' cols='80' id="mensaje" name="mensaje" placeholder="Escribanos su mensaje (máximo 1000 caracteres)" ></textarea>
+        <br/><br/>
+  
+        <hr> 
+        <input type="checkbox" name="autoriza_tratamiento_datos" value="autorizado" />
+        Autorizo el tratamiento de mis datos para contacto 
+        <img id="img_valida_Autorizacion_tratamiento_datos"  width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+
+
+        <hr>       
+           
+        
+        <! ----------------------------------------- -->  
+        <! --- Botones de comando para el formularo  -->
+        <input type="submit"  value="Enviar" />
+        <! input type="reset" value="Reiniciar datos" />   
+        <input type="button" value="Reiniciar datos" onclick="resetearDatos()"></center>
+    </form>
+</body>
+    
+</html>
+
